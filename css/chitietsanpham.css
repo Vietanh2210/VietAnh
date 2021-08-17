@@ -1,0 +1,48 @@
+*{
+	font-family: "Arial";
+}
+
+.head_top{
+	background-color: #f1f1f1;
+}
+
+.store_system i{
+	color: #fdb819;
+}
+
+.menu_top nav .nav-link{
+	color: #282828;
+	padding: 0 1rem;
+	margin: 0.5rem 0;
+}
+
+.logo{
+	width: 100%;
+	max-width: 225px;
+}
+
+#form_search #basic-addon2{
+	color: #282828;
+	background-color: #fdb819;
+}
+
+.contact_top {
+	width: 95%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fdb819;
+	border-radius: 35px;
+	flex-wrap: wrap;
+}
+
+.contact_top .phone_number{
+	font-size: 30px;
+	font-weight: bold;
+	color: #e12025;
+}
+
+.contact_top .time{
+	font-size: 16px;
+}

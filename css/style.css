@@ -1,0 +1,109 @@
+.sidebar{
+	width: 320px;
+	height: 100vh;
+	background-color: #2c343f;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+
+.logo{
+	height: 60px;
+	background-color: #3e4a59;
+	color: white;
+	font-size: 20px;
+	line-height: 60px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+.card-sidebar{
+	background-color: unset;
+	border: 0;
+	border-radius: 0;
+}
+
+.card-sidebar>.list-group:first-child .list-group-item:first-child{
+	border-radius: 0;
+}
+
+.card-sidebar>.list-group:last-child .list-group-item:last-child{
+	border-radius: 0;
+}
+
+.card-sidebar ul li{
+	background-color: unset;
+	color: white;
+	padding: 0;
+}
+
+.card-sidebar ul li a{
+	color: white;
+	display: block;
+	padding: .75rem 1.25rem;
+	font-size: 1rem;
+}
+
+.card-sidebar ul li a:hover{
+	text-decoration: none;
+	color: #575757;
+}
+
+.content{
+	margin-left: 320px;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+	transition: 0.5s;
+}
+
+header{
+	height: 60px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left_header{
+	display: flex;
+	padding-left: 25px;
+	align-items: center;
+}
+
+.right_header{
+	padding-right: 25px;
+}
+
+.left_header .input-group{
+	margin-left: 30px;
+}
+
+main{
+	background-color: white;
+	width: 95%;
+	margin: 15px auto;
+	padding-bottom: 25px;
+}
+
+main .title{
+	padding: 20px 15px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+}
+
+main .title h3{
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.main_content{
+	margin-top: 30px;
+	padding: 0 15px;
+}
+
+#input_file{
+	display: none;
+}

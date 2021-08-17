@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Backend</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap4/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="sidebar">
+			<div class="logo">
+				<i class="fas fa-circle-notch"></i> CMS
+			</div>
+			<div class="menu">
+				<div class="card card-sidebar">
+				  <ul class="list-group list-group-flush">
+				    <li class="list-group-item">
+				    	<a href="#">Tài khoản quản trị</a>
+				    </li>
+				    <li class="list-group-item">
+				    	<a href="#">Sản phẩm</a>
+				    </li>
+				    <li class="list-group-item">
+				    	<a href="#">Loại sản phẩm</a>
+				    </li>
+				    <li class="list-group-item">
+				    	<a href="#">Tin tức</a>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<header>
+				<div class="left_header">
+					<button id="action_sidebar" class="btn btn-default action_sidebar">
+						<i class="fas fa-bars"></i>
+					</button>
+
+					<form action="" method="GET">
+						<div class="input-group">
+						  <input type="text" class="form-control" placeholder="Search..." aria-label="Search" aria-describedby="basic-addon2">
+						  <div class="input-group-append">
+						    <span class="input-group-text" id="basic-addon2">
+						    	<i class="fas fa-search"></i>
+						    </span>
+						  </div>
+						</div>
+					</form>
+				</div>
+				<div class="right_header">
+					<div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Username
+					  </button>
+					  <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Profile</a>
+					    <a class="dropdown-item" href="#">Reset Password</a>
+					    <a class="dropdown-item" href="#">Setting</a>
+					  </div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div class="title">
+					<h3>Tin Tức</h3>
+					<a href="./form.html" class="btn btn-primary">
+						Thêm mới
+					</a>
+				</div>
+				<div class="main_content">
+					<table class="table table-bordered">
+					  <thead class="thead-dark">
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">First</th>
+					      <th scope="col">Last</th>
+					      <th scope="col">Handle</th>
+					      <th style="width: 150px;"></th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>Mark</td>
+					      <td>Otto</td>
+					      <td>@mdo</td>
+					      <td>
+					      	<a class="btn btn-light" href=""><i class="fas fa-edit"></i></a>
+					      	<a class="btn btn-light" href=""><i class="fas fa-trash-alt"></i></a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>Jacob</td>
+					      <td>Thornton</td>
+					      <td>@fat</td>
+					      <td>
+					      	<a class="btn btn-light" href=""><i class="fas fa-edit"></i></a>
+					      	<a class="btn btn-light" href=""><i class="fas fa-trash-alt"></i></a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>Larry</td>
+					      <td>the Bird</td>
+					      <td>@twitter</td>
+					      <td>
+					      	<a class="btn btn-light" href=""><i class="fas fa-edit"></i></a>
+					      	<a class="btn btn-light" href=""><i class="fas fa-trash-alt"></i></a>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+
+
+				</div>
+			</main>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../lib/jquery.min.js"></script>
+<script type="text/javascript" src="../lib/bootstrap4/popper.min.js"></script>
+<script type="text/javascript" src="../lib/bootstrap4/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</html>
